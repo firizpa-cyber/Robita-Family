@@ -1,0 +1,21 @@
+{
+  "@@locale": "en",
+  "appTitle": "Robita Life",
+  "summaryNav": "Home",
+  "locatorNav": "Map",
+  "controlNav": "Control",
+  "plansNav": "Plans",
+  "chatNav": "Chat",
+  "summaryTitle": "Family summary",
+  "locatorTitle": "Family map",
+  "controlTitle": "Parental control",
+  "plansTitle": "Plans & tasks",
+  "chatTitle": "Family chat",
+  "summarySubtitle": "Loved ones status, battery, SOS button and today's tasks",
+  "locatorSubtitle": "Where kids are now, routes and safe zones",
+  "controlSubtitle": "Screen time, app limits and filters",
+  "plansSubtitle": "Family calendar and assignments",
+  "chatSubtitle": "Messages and smart family alerts",
+  "soonBadge": "Coming soon",
+  "emptySectionMessage": "We will fill it in the next stage"
+}

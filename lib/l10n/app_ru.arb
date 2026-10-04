@@ -1,0 +1,21 @@
+{
+  "@@locale": "ru",
+  "appTitle": "Robita Life",
+  "summaryNav": "Главная",
+  "locatorNav": "Карта",
+  "controlNav": "Контроль",
+  "plansNav": "Планы",
+  "chatNav": "Чат",
+  "summaryTitle": "Сводка семьи",
+  "locatorTitle": "Карта семьи",
+  "controlTitle": "Родительский контроль",
+  "plansTitle": "Планы и задачи",
+  "chatTitle": "Семейный чат",
+  "summarySubtitle": "Статусы близких, батарея, кнопка SOS и дела на сегодня",
+  "locatorSubtitle": "Где сейчас дети, маршруты и безопасные зоны",
+  "controlSubtitle": "Экранное время, лимиты приложений и фильтры",
+  "plansSubtitle": "Календарь семьи и поручения детям",
+  "chatSubtitle": "Сообщения и умные оповещения семьи",
+  "soonBadge": "Раздел в разработке",
+  "emptySectionMessage": "Наполним на следующем этапе"
+}
