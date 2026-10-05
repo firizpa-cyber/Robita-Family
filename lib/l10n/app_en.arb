@@ -28,5 +28,14 @@
   "sosSent": "SOS sent! Adults received your address and battery level.",
   "todayTasks": "Today's tasks",
   "tasksDone": "Done",
-  "tasksAllDone": "All tasks done"
+  "tasksAllDone": "All tasks done",
+  "safeZones": "Safe zones",
+  "routeHistory": "Route",
+  "showRoute": "Show route",
+  "zoneHome": "Home",
+  "zoneSchool": "School",
+  "zoneClub": "Club",
+  "radiusValue": "{meters} m",
+  "enteredZone": "entered the zone",
+  "leftZone": "left the zone"
 }

@@ -28,5 +28,14 @@
   "sosSent": "SOS отправлен! Взрослые получили ваш адрес и заряд батареи.",
   "todayTasks": "Дела на сегодня",
   "tasksDone": "Выполнено",
-  "tasksAllDone": "Все дела выполнены"
+  "tasksAllDone": "Все дела выполнены",
+  "safeZones": "Безопасные зоны",
+  "routeHistory": "Маршрут",
+  "showRoute": "Показать маршрут",
+  "zoneHome": "Дом",
+  "zoneSchool": "Школа",
+  "zoneClub": "Секция",
+  "radiusValue": "{meters} м",
+  "enteredZone": "вошёл(ла) в зону",
+  "leftZone": "вышел(ла) из зоны"
 }
