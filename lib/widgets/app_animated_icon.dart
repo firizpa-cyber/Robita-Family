@@ -52,15 +52,16 @@ class AppAnimatedIcon extends StatelessWidget {
       );
     }
 
-    // Режим Material + flutter_animate: плавно дышит при выборе.
+    // Режим Material + flutter_animate: иконка всегда видима,
+    // при смене выбора проигрывается pop-анимация один раз вперёд.
     return Icon(icon, size: size, color: color)
-        .animate(key: ValueKey<bool>(selected), target: selected ? 1 : 0)
+        .animate(key: ValueKey<bool>(selected))
         .scale(
-          begin: const Offset(0.75, 0.75),
-          end: const Offset(1.12, 1.12),
-          duration: 280.ms,
+          begin: const Offset(0.7, 0.7),
+          end: const Offset(1.0, 1.0),
+          duration: 250.ms,
           curve: Curves.easeInOutCubic,
         )
-        .fadeIn(duration: 200.ms, curve: Curves.easeOut);
+        .fadeIn(duration: 150.ms, curve: Curves.easeOut);
   }
 }
