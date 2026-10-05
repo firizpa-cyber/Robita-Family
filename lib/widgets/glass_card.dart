@@ -46,7 +46,14 @@ class GlassCard extends StatelessWidget {
               ),
             ],
           ),
-          child: child,
+          // Прозрачный Material под контентом: чернила ListTile /
+          // SwitchListTile внутри стекла корректно отрисовываются
+          // и не прячутся под DecoratedBox.
+          child: Material(
+            type: MaterialType.transparency,
+            borderRadius: radius,
+            child: child,
+          ),
         ),
       ),
     );

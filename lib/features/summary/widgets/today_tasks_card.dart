@@ -123,12 +123,8 @@ class _TaskTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Material нужен, чтобы чернила CheckboxListTile не прятались
-    // под DecoratedBox стеклянной карточки.
-    return Material(
-      color: Colors.transparent,
-      borderRadius: BorderRadius.circular(AppInsets.radiusSm),
-      child: CheckboxListTile(
+    // Прозрачный Material для чернил уже даёт GlassCard выше по дереву.
+    return CheckboxListTile(
       value: task.done,
       onChanged: (_) {
         task.done = !task.done;
@@ -147,7 +143,6 @@ class _TaskTile extends StatelessWidget {
               ? Theme.of(context).colorScheme.outline
               : Theme.of(context).colorScheme.onSurface,
         ),
-      ),
       ),
     );
   }
