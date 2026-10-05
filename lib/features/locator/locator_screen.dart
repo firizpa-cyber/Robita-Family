@@ -8,7 +8,7 @@ class LocatorScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     return AppEmptyView(
       icon: Icons.map_outlined,
       title: t.locatorTitle,

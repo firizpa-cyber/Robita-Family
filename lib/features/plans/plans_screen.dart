@@ -8,7 +8,7 @@ class PlansScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     return AppEmptyView(
       icon: Icons.calendar_month_outlined,
       title: t.plansTitle,

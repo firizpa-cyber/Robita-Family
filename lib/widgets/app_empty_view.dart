@@ -41,7 +41,7 @@ class AppEmptyView extends StatelessWidget {
               width: 96,
               height: 96,
               decoration: BoxDecoration(
-                color: color.withOpacity(0.12),
+                color: color.withValues(alpha: 0.12),
                 borderRadius: BorderRadius.circular(AppInsets.radiusLg),
               ),
               child: Icon(icon, size: 44, color: color),

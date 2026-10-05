@@ -8,7 +8,7 @@ class SummaryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final t = AppLocalizations.of(context)!;
+    final t = AppLocalizations.of(context);
     return AppEmptyView(
       icon: Icons.family_restroom_outlined,
       title: t.summaryTitle,
