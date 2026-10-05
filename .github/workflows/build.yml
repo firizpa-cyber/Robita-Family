@@ -56,11 +56,24 @@ jobs:
           fi
           flutter pub get
 
-      - name: Build unsigned IPA
+      - name: Build unsigned archive
+        # --no-codesign собирает только .xcarchive, экспорт .ipa
+        # Xcode без подписи не делает — упакуем вручную шагом ниже.
         run: flutter build ipa --no-codesign
+
+      - name: Pack unsigned IPA
+        run: |
+          APP_PATH=$(find build/ios/archive -name "Runner.app" -type d | head -1)
+          echo "Found app: $APP_PATH"
+          test -n "$APP_PATH"
+          rm -rf payload Runner-unsigned.ipa
+          mkdir -p payload/Payload
+          cp -R "$APP_PATH" payload/Payload/
+          cd payload
+          zip -r -y ../Runner-unsigned.ipa Payload
 
       - name: Upload IPA
         uses: actions/upload-artifact@v4
         with:
           name: app-release-ipa
-          path: build/ios/ipa/*.ipa
+          path: Runner-unsigned.ipa
