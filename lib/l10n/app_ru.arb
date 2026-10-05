@@ -17,5 +17,16 @@
   "plansSubtitle": "Календарь семьи и поручения детям",
   "chatSubtitle": "Сообщения и умные оповещения семьи",
   "soonBadge": "Раздел в разработке",
-  "emptySectionMessage": "Наполним на следующем этапе"
+  "emptySectionMessage": "Наполним на следующем этапе",
+  "familyNow": "Семья сейчас",
+  "onlineNow": "В сети",
+  "lastSeenMinutes": "Был(а) {minutes} мин назад",
+  "remindCharge": "Напомнить о зарядке",
+  "chargeReminderSent": "Напоминание о зарядке отправлено",
+  "sosTitle": "Тревожная кнопка",
+  "sosHoldHint": "Удерживайте 2 секунды",
+  "sosSent": "SOS отправлен! Взрослые получили ваш адрес и заряд батареи.",
+  "todayTasks": "Дела на сегодня",
+  "tasksDone": "Выполнено",
+  "tasksAllDone": "Все дела выполнены"
 }

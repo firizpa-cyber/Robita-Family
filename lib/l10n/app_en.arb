@@ -17,5 +17,16 @@
   "plansSubtitle": "Family calendar and assignments",
   "chatSubtitle": "Messages and smart family alerts",
   "soonBadge": "Coming soon",
-  "emptySectionMessage": "We will fill it in the next stage"
+  "emptySectionMessage": "We will fill it in the next stage",
+  "familyNow": "Family right now",
+  "onlineNow": "Online",
+  "lastSeenMinutes": "Seen {minutes} min ago",
+  "remindCharge": "Remind to charge",
+  "chargeReminderSent": "Charge reminder sent",
+  "sosTitle": "SOS button",
+  "sosHoldHint": "Hold for 2 seconds",
+  "sosSent": "SOS sent! Adults received your address and battery level.",
+  "todayTasks": "Today's tasks",
+  "tasksDone": "Done",
+  "tasksAllDone": "All tasks done"
 }
